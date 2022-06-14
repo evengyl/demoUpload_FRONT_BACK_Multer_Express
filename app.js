@@ -41,7 +41,6 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 
-app.use(express.static('content'));
 app.engine('html', require('ejs').renderFile);
 
 
